@@ -1,5 +1,96 @@
 /*CSS Comment. */
 
 body {
-  font-family: sans-serif;
+  font-family: "Papyrus", sans-serif;
   color: grey;
+}
+
+h1 {
+  font-size: 72px;
+  color: Red;
+}
+
+h2 {
+  color:  rgba(24,165,85); /* green */
+}
+
+p {
+  color: rgb(219,112,147)
+}
+
+#introduction {
+  background-color: #eee;
+}
+
+#geography {
+  font-family:"Oriya MN" sans-serif;
+}
+
+section {
+  background-color: #ddd;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "header  header"
+  "nav     main"
+  "footer  footer"
+  grid-gap: 20px;
+}
+
+h1,
+h2,
+ul,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header,
+nav,
+section,
+footer {
+  padding: 10px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+footer {
+  grid-area: footer;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green; 
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: blue;
+}
