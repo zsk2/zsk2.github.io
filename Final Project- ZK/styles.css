@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*-----nav-------*/
+#nav {
+	width: 100%;
+	display: block;
+	position: fixed;
+	text-align: right;
+	z-index: 9999;
+}
+
+#nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	list-style-type: none;
+}
+
+#nav li {
+	margin: 0 10px;
+	display: inline;
+}
+
+#nav li a {
+	text-decoration: none;
+	font-family: Ubuntu;
+	font-weight: 700;
+	color: #FE5F55;
+	text-transform: uppercase;
+	font-stretch: 10%;
+	letter-spacing: 2px;
+}
+
+#nav li a:hover {
+	color: #742C27;
+}
+
+/*-----content-----*/
+#welcome {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #B5DABD;
+}
+
+#step1 {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #F8AFB2;
+	text-align: center;
+}
+
+#step2 {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #B5DABD;
+}
+
+#step3 {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #F8AFB2;
+}
+
+#step4 {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #B5DABD;
+}
+
+#step5 {
+	margin: 0;
+	padding: 0;
+	height: 600px;
+	width: 100%;
+	background-color: #F8AFB2 ;
+}
+
+h1 {
+	margin: 0;
+	padding: 280px 0 200px 0;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #FDFEFB;
+}
+
+p {
+	margin: 0;
+	padding: 280px 0 200px 0;
+	text-align: left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: #FDFEFB;
+}
+
+img {
+	margin: 150px 50px 0 300px;
+	float: left;
+	max-height: 300px;
+}
+
+#step1 p{
+	padding: 250px 0 10px 0;
+}
+
+#step1 ul {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	list-style-type: none;
+}
+
+#step1 li {
+	font-family: helvetica;
+	color: #FDFEFB;
+	font-stretch: 10%;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+
+
+
+/*-----tablet----*/
+
+@media only screen and (max-width: 768px)  {
+	h1 {
+		font-size: 50px;
+	}
+
+	p{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	#step1 li{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	img {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 250px;
+	}
+
+}
+
+/*-----mobile----*/
+
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 30px
+	}
+
+	p{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	#step1 li{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	img {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 200px;
+	}
+
+}
